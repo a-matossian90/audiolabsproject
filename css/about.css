@@ -1,0 +1,16 @@
+/*Start of container*/
+.container-about {
+  height: 500px;
+  padding: 3%;
+  background-color: #a6a6a6;
+}
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.bio-column {
+    height: 50px;
+    width: 50%;
+    float: left;
+}

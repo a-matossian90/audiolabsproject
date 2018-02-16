@@ -1,0 +1,44 @@
+/**** Start of contact form ****/
+.container-form {
+  height: 500px;
+  padding: 3%;
+  background-color: #a6a6a6;
+}
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.contact-column {
+   height: 450px;
+   width: 40%;
+   float: left;
+   margin-right: 3%;
+   margin-left: 3%;
+   padding: 1%;
+   background-color: #ffad33;
+   border: 2px solid #ffffff;
+   border-radius: 15px;
+}
+.line-separation {
+   height: 400px;
+   width: 2px;
+   margin-top: 30px;
+   border-left: 2px solid #000000;
+   float: left; 
+ }
+.contact-wrapper {
+   height: 450px;
+   margin: 5px auto 0 auto;
+   width: 75%;
+}
+
+.form-title {
+   font-family: 'Quattrocento Sans', sans-serif;
+   font-size: 24px;
+}
+
+/**** End of contact form ****/
+
+/**** Start of new content ****/
+

@@ -1,0 +1,171 @@
+<DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114279769-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-114279769-1');
+    </script>
+    <title>Sound Labs - Contact</title>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width-device, initial-scale=1.0">
+      <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+      <link rel="stylesheet" href="css/styles.css" type="text/css" />
+      <link rel="stylesheet" href="css/contact.css" type="text/css" />
+      <link rel="stylesheet" href="css/fontawesome-all.min.css" type="text/css"/>
+     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i|Questrial|Signika" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Bangers|Oleo+Script+Swash+Caps|Questrial|Racing+Sans+One|Signika" rel="stylesheet">
+  </head>
+    <body>
+    
+    <!-- Start new section -->
+    <section class="hero-section">
+    </section>
+    <!-- End of hero section -->
+    
+    <!-- Start of Nav -->
+     <nav class="main-nav">
+      <img src="images/Speakerlogo.png" alt="Logo" class="logo"/>
+      
+      <ul class="nav-list">
+        <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">Who We Are</a>
+        </li>
+        <li class="nav-item">
+          <a href="our-approach.html" class="nav-link">Our Approach</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- End of nav -->
+    
+    <!-- Start of Google Map-->
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <div id="map"></div>
+    <script>
+
+      function initMap() {
+        var myLatLng = {lat: 36.7945846, lng: -119.7809944};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJwkUFFdSSefR8fDvpiRrhtR01Ef1fDKc&callback=initMap">
+    </script>
+    
+    <!-- End of Google Map -->
+    
+    <!-- Start of contact form -->
+    
+    <section class="container-form">
+      <div class="contact-wrapper">  
+        <div class="contact-column">
+          <form action="/action_page.php">  
+            <h1 class="form-title"> Get in touch with us</h1>
+              Your Name:              
+                <input type="text" name="name">              
+                  <br><br>
+              Your Email:
+                <input type="text" name="email">
+                  <br>
+              <p>Select Department</p>
+                <select name="Select">
+                  <option value="sales">Sales</option>
+                  <option value="technical service">Technical Service</option>
+                  <option value="general information">General Information</option>
+                  <option value="feedback">Feedback</option>
+                </select>
+                  <br>
+              <p>Your Message</p>
+                <textarea name="message" rows="10" cols="40"></textarea>
+                  <br>
+              <input type="submit" name="Send" value="Send">
+          </form>
+        </div>
+        
+        <div class="line-separation"></div>
+        
+        <div class="contact-column">
+          <h1 class="form-title">Contact Details</h1>  
+            <i class="fas fa-phone"> Call us at 559-256-8934</i>
+              <br><br>
+            <i class="fas fa-map-marker-alt"> 4120 N Fresno St. Fresno, CA 93726</i>
+              <br><br>
+            <i class="fas fa-envelope"> Email us: alfresno@aol.com</i>
+        </div>
+      </div>   
+    </section>  
+  
+    <!-- End of contact form -->
+    
+    <!-- Start of footer -->
+    
+    <footer class="main-footer">
+      <div class="footer-section">
+        <p>All Rights Reserved.</p>
+        <p>Website By: Alexander Matossian</p>
+      </div>
+      <div class="footer-section">
+       <!-- Diamond Social Media Icons -->
+       <div class="main-box center">
+         <div class="box center circle-background">
+           <div class="center-text">
+           <i class="fab fa-dropbox"></i>
+           </div>
+         </div>
+       
+       
+       <div class="box left circle-background">
+         <div class="center text">
+         <i class="fab fa-facebook-f"></i>
+         </div>
+       </div>
+         
+       <div class="box right circle-background">
+         <div class="center text">
+         <i class="fab fa-quinscape"></i>
+         </div>
+       </div>
+         
+       <div class="box center clear-left circle-background">
+         <div class="center-text">
+         <i class="fab fa-slack-hash"></i>
+       </div>
+      </div>
+     </div>
+    </div>
+       <div class="footer-section">
+         <p>Subvert90@protonmail.com</p>
+        </div>
+    </footer>
+    <!-- End of footer -->
+  </body>
+</html>

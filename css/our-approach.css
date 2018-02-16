@@ -1,0 +1,27 @@
+/*Start of column one*/
+
+.container-apr {
+  height: 500px;
+  padding: 3%;
+  background-color: #a6a6a6;
+}
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.column-one {
+   height: 450px;
+   width: 25%;
+   float: left;
+   margin-right: 3%;
+   margin-left: 3%;
+   padding: 1%;
+   background-color: #ffad33;
+   border: 2px solid #ffffff;
+   border-radius: 15px;
+}
+.apr-wrapper {
+   height: 450;
+   margin: 5px auto 0 auto;
+}
